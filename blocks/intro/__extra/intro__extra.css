@@ -1,0 +1,12 @@
+.intro__extra {
+    margin-top: 24px;
+    margin-bottom: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__extra {
+        margin-top: 32px;
+    }
+}

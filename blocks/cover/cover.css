@@ -1,0 +1,52 @@
+@import url('__container/cover__container.css');
+@import url('__title/cover__title.css');
+@import url('__subtitle/cover__subtitle.css');
+.cover {
+    position: relative;
+    max-width: 1184px;
+    min-height: 594px;
+    margin: 102px auto 0px auto;
+    background-image: url(../../images/toBaikal.jpg);
+    background-size: cover;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    transition: .5s linear;
+    transition-property: background;
+}
+
+.cover:hover::before {
+    background: rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 1184px) {
+    .cover {
+        max-width: 100%;
+        min-height: 562px;
+       
+    }
+}
+@media screen and (max-width: 900px) {
+    .cover {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .cover {
+        margin-top: 48px;
+        min-height: 272px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cover {
+        margin-top: 64px;
+        min-height: 216px;
+    }
+}

@@ -1,0 +1,17 @@
+.header__lang {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang {
+        font-size: 1.125rem;
+        line-height: 0.9;
+    }
+}

@@ -1,0 +1,18 @@
+.intro__content-article {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 48px;
+    max-width: 683px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__content-article {
+        font-size: 1rem;
+        margin-top: 32px;
+    }
+}

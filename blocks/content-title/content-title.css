@@ -1,0 +1,25 @@
+.content-title {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1.1;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 800px;
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .content-title {
+        font-size: 2.6rem;
+        line-height: 1.1;
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .content-title {
+        font-size: 2rem;
+    }
+}

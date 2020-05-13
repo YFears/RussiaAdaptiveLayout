@@ -1,0 +1,23 @@
+.cover__title {
+    width: max-content;
+    display: flex;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.1;
+    color: #FFFDFD;
+    max-width: max-content;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .cover__title {
+        font-size: 2rem;
+    }
+}
